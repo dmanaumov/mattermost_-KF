@@ -93,7 +93,8 @@ export const isEnterpriseLicense = (license?: ClientLicense) => {
         return true;
     }
 
-    return false;
+    //return false;
+    return true;
 };
 
 export const isNonEnterpriseLicense = (license?: ClientLicense) => !isEnterpriseLicense(license);
